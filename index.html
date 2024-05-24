@@ -813,13 +813,14 @@
 </head>
 
 <body>
-    <div class="container-fluid" style="width: 85%; font-family: 'Roboto', sans-serif;">
+    <div class="container-fluid" style="width: 85%; font-family: 'Roboto', sans-serif; color: #007bff;">
         <form class='form contactanos w-100 needs-validation g-3'
             action='https://functions.botmaker.com/rest/public_code_actions/guillemailbot/contacto' method='post'
             role='form' autocomplete='off' id="contactanos">
 
             <div class="col-12 mb-4" style="margin-top: 50px;">
-                <h2 id="title-form" style="color:#F37320;font-size:36px; text-align:left;">
+                <img src="https://storage.googleapis.com/storage.botmaker.com/public/res/guillemailbot/20240524-RXWql0fZYIYYT3kadW3yYrGpIGR2-Q7WXF-TWFjcm8=.png" alt="">
+                <h2 id="title-form" style="color:#007bff;font-size:36px; text-align:left;">
                     Envianos tu consulta
                 </h2>
             </div>
@@ -829,8 +830,10 @@
                 <select class="form-control form-select" id="producto" name='producto'
                     style="font-size: 18px;width: 100%;" required>
                     <option disabled selected>Seleccionar</option>
-                    <option>Producto1</option>
-                    <option>Producto2</option>
+                    <option>Emisiones y Colocaciones</option>
+                    <option>Intermediación Bursátil</option>
+                    <option value="">Finanzas Personales</option>
+                    <option value="">Fondos Comunes de Inversión</option>
                 </select>
             </div>
 
@@ -898,7 +901,7 @@
 
             <div class='col-md-12 form-group' style="justify-content: space-between; width: 300px;">
                 <input class='btn my-3' type='submit' value='Enviar'
-                    style="color:#F37320;font-size:18px; text-align:center;width: 100%;" />
+                    style="color:#007bff;font-size:18px; text-align:center;width: 100%;" />
             </div>
 
         </form>
